@@ -7,6 +7,7 @@ body, main, section, img, h1, p, form, h2, input, span, button{
 
 :root{
     --preto:  #000000;
-    --azul: #00b8ff;
-    --fuligem: #3d2b1f;
+    --branco: #f0f2f5;
+    --fontes: #1c1e21;
+    --azul: #1877f2;
 }

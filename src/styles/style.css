@@ -17,6 +17,11 @@ button:hover{
     border: 1px solid var(--azul);
 }
 
+input{
+    border-radius: 6px;  
+    border: 1px solid var(--azul);
+}
+
 h1, h2, p, span{
     color: var(--fontes);
 }

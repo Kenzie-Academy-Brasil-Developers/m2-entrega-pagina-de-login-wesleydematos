@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <script src="./src/scripts/script.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <section class="section__apresentacao">
+            <img src="./src/img/logo.png" alt="">
+
+            <h1>Bem vindo de volta!</h1>
+            <p>Kenzie Jobs, aqui você encontra as melhores vagas de trabalho para programação.</p>
+        </section>
+
+        <section class="section__login">
+            <form>
+                <h2>Efetue o login:</h2>
+                <input type="text" placeholder="Digite seu usuário">
+                <input type="password" placeholder="Digite sua senha">
+                <span>Esqueci minha senha</span>
+                <button id="btnEntrar">Entrar</button>
+            </form>
+        </section>
+
+        <section class="section__modal__senha hidden">
+            <h2>Recuperando a senha...</h2>
+            <p>Um link para a redefinição de senha será enviado para seu email, insira-o abaixo.</p>
+            <input type="email" placeholder="Digite seu email">
+            <button id="btnModal">Enviar</button>
+        </section>
+
+        <section class="section__popup hidden">
+            <div>
+                <p>Email enviado com sucesso, confira sua caixa de entrada e spam!</p>
+                <span id="fechaPopUp">X</span>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body, main, section, img, h1, p, form, h2, input, span, button{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --preto:  #000000;
+    --azul: #00b8ff;
+    --fuligem: #3d2b1f;
+}

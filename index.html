@@ -24,7 +24,7 @@
                 <h2>Efetue o login:</h2>
                 <input type="text" placeholder="Digite seu usuário">
                 <input type="password" placeholder="Digite sua senha">
-                <span>Esqueci minha senha</span>
+                <span id="senhaEsquecida">Esqueci minha senha</span>
                 <button id="btnEntrar">Entrar</button>
             </form>
         </section>
@@ -32,10 +32,10 @@
 
     <section class="section__modal__senha hidden">
         <div>
-            <span>X</span>
+            <span id="spanFechaModal">X</span>
             <h2>Recuperando a senha...</h2>
             <p>Um link para a redefinição de senha será enviado para seu email.</p>
-            <input type="email" placeholder="Digite seu email" required>
+            <input type="email" id="email" placeholder="Digite seu email" required>
             <button id="btnModal">Enviar</button>
         </div>
     </section>

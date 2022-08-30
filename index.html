@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./src/img/logo.png">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/inputs.css">
+    <link rel="stylesheet" href="./src/styles/fontes.css">
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/styles/spanFechar.css">
     <script src="./src/scripts/script.js" type="module" defer></script>
     <title>In Jobs</title>
 </head>
@@ -31,9 +35,9 @@
         </section>
     </main>
 
-    <section class="section__modal__senha hidden">
+    <section class="section__modal__senha modal hidden">
         <div>
-            <span id="spanFechaModal">X</span>
+            <span id="spanFechaModal" class="spanFechar">X</span>
             <h2>Recuperando a senha...</h2>
             <p>Um link para a redefinição de senha será enviado para seu email.</p>
             <input type="email" id="email" placeholder="Digite seu email" required>
@@ -41,9 +45,9 @@
         </div>
     </section>
 
-    <section class="section__popup hidden">
+    <section class="section__popup modal hidden">
         <div>
-            <span id="fechaPopUp">X</span>
+            <span id="fechaPopUp" class="spanFechar">X</span>
             <p>Email enviado com sucesso, confira sua caixa de entrada e spam!</p>
         </div>
     </section>

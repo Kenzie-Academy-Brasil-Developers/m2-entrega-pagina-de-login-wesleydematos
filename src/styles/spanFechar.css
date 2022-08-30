@@ -1,0 +1,13 @@
+.spanFechar{
+    align-self: flex-end;
+    cursor: pointer;
+    text-align: center;
+    color: var(--branco);
+    width: 17px;
+    border-radius: 10px;
+    background-color: var(--cinza);
+}
+
+.spanFechar:hover{
+    background-color: red;
+}
